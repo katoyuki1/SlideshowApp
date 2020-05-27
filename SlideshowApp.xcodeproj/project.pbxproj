@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8B88EA247E7FFE005B6655 /* ZoomInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B88E9247E7FFE005B6655 /* ZoomInController.swift */; };
 		CEEF959D247548EB000F6051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF959C247548EB000F6051 /* AppDelegate.swift */; };
 		CEEF959F247548EB000F6051 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF959E247548EB000F6051 /* SceneDelegate.swift */; };
 		CEEF95A1247548EB000F6051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF95A0247548EB000F6051 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE8B88E9247E7FFE005B6655 /* ZoomInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInController.swift; sourceTree = "<group>"; };
 		CEEF9599247548EB000F6051 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEF959C247548EB000F6051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEF959E247548EB000F6051 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				CEEF959C247548EB000F6051 /* AppDelegate.swift */,
 				CEEF959E247548EB000F6051 /* SceneDelegate.swift */,
 				CEEF95A0247548EB000F6051 /* ViewController.swift */,
+				CE8B88E9247E7FFE005B6655 /* ZoomInController.swift */,
 				CEEF95A2247548EB000F6051 /* Main.storyboard */,
 				CEEF95A5247548EC000F6051 /* Assets.xcassets */,
 				CEEF95A7247548EC000F6051 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEF95A1247548EB000F6051 /* ViewController.swift in Sources */,
+				CE8B88EA247E7FFE005B6655 /* ZoomInController.swift in Sources */,
 				CEEF959D247548EB000F6051 /* AppDelegate.swift in Sources */,
 				CEEF959F247548EB000F6051 /* SceneDelegate.swift in Sources */,
 			);
