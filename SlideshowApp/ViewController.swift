@@ -124,7 +124,23 @@ class ViewController: UIViewController {
         imageView.image = image
     }
 
+    @IBAction func onTapAction(_ sender: Any) {
+        self.performSegue(withIdentifier: "toZoomIn", sender: nil)
+    }
     
+    // 遷移元から遷移先にデータ(画像)を渡す
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // segueから遷移先のZoomInControllerのインスタンスを取得する
+        let zoomInController:ZoomInController = segue.destination as! ZoomInController
+        // 表示している画像の番号から名前を取り出し
+        let name = imageNameArray[displayImageNo]
+        // 画像を読み込み
+        let image = UIImage(named: name)
+        
+        // 遷移先のZoomInControllerで宣言しているselectedImgに値を代入して渡す
+        zoomInController.selectedImg = image
+        
+    }
 
 }
 
